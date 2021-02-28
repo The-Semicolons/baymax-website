@@ -5,6 +5,9 @@ class VideoComponent extends Component{
     render(){
         return(
             <Container className="mt-5" id="videos">
+                <h2 className="text-white">
+                        Videos
+                    </h2>
                 <Row>
                     <Col md={6} className="mb-5">
                         <Card>

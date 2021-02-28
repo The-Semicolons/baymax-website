@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Container, Jumbotron } from 'reactstrap';
+import { Container, Jumbotron, Button } from 'reactstrap';
+import { AiOutlineGithub } from 'react-icons/ai';
 
 class HeaderComponent extends Component{
     render(){
         return(
-            <Jumbotron className="mildRedColour">
+            <Jumbotron className="mildRedColour mt-5 mt-md-4">
                 <Container>
                     <h1>
                         Baymax
@@ -15,6 +16,11 @@ class HeaderComponent extends Component{
                     <h6>
                         Low budget solution for medical scarcity in rural/remote areas. The application is able to communicate with patients and diagnosing them properly.
                     </h6>
+                    <Button color="success" className="mt-3" href="https://github.com/The-Semicolons/Baymax" target="blank">
+                        <AiOutlineGithub />
+                        &nbsp;
+                        Check out project on github!
+                    </Button>
                 </Container>
             </Jumbotron>
            

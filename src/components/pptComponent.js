@@ -6,6 +6,9 @@ class PptComponent extends Component{
         return(
             <React.Fragment>
                 <Container id="presentation">
+                    <h2 className="text-white">
+                        Project Presentation
+                    </h2>
                     <Card>
                         <Container>
                             <div className="embed-responsive embed-responsive-16by9 mt-3">
